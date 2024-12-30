@@ -1,0 +1,9 @@
+activate venv 'D:\Py\FastAPIDemo\fastAPIvENV\Scripts\activate.bat'
+start project 'uvicorn main:app' -> 'main' : filename, 'app' : instance of FastAPI
+start project & auto save 'uvicorn main:app --reload'
+start project in remote folder 'uvicorn app.main:app --reload' -> 'app' : folder name
+
+ORM (Object Relational Mapper) - SQLAlchemy - abstracts the SQL related info/code from main code.
+
+'alembic' is used for DB migrations
+'CORS' block cross doamin access to APIs
